@@ -1,25 +1,28 @@
 import React, { useState } from "react";
 import axios from "axios";
+import Results from "./Results";
+import "./Dictionary.css";
 
 export default function Search() {
-  let [word, setword] = useState(" ");
+  let [keyword, setkeyword] = useState(" ");
+  let [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    alert(response.data);
+    setResults(response.data[0]);
   }
 
   function Search(event) {
     event.preventDefault();
-    let api = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${word}`;
+    let api = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(api).then(handleResponse);
   }
 
   function updateWord(event) {
-    setword(event.target.value);
+    setkeyword(event.target.value);
   }
 
   return (
-    <div className="input-group rounded">
+    <div className="Dictionary input-group rounded">
       <form onSubmit={Search}>
         <input
           type="search"
@@ -30,6 +33,7 @@ export default function Search() {
           aria-describedby="search-addon"
         />
       </form>
+      <Results results={results} />
     </div>
   );
 }

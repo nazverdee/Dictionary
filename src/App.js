@@ -1,5 +1,5 @@
 import "./App.css";
-import Search from "./Search";
+import Dictionary from "./Dictionary";
 import logo from "./logo.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 
@@ -9,7 +9,7 @@ function App() {
       <a href="/">
         <img className="logo" src={logo} alt="logo" />
       </a>
-      <Search />
+      <Dictionary />
     </div>
   );
 }
