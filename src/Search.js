@@ -1,11 +1,17 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 export default function Search() {
   let [word, setword] = useState(" ");
 
-  function handleSubmit(event) {
+  function handleResponse(response) {
+    alert(response.data);
+  }
+
+  function Search(event) {
     event.preventDefault();
-    alert(`Searching for ${word}`);
+    let api = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${word}`;
+    axios.get(api).then(handleResponse);
   }
 
   function updateWord(event) {
@@ -14,7 +20,7 @@ export default function Search() {
 
   return (
     <div className="input-group rounded">
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={Search}>
         <input
           type="search"
           placeholder="Search"
