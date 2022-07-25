@@ -6,9 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App container" id="container">
-      <a href="https://www.shecodes.io/">
-        <img className="logo" src={logo} alt="logo" />
-      </a>
+      <h1 className="title">Encyclopedia</h1>
       <Dictionary defaultKeyword="empathy" />
     </div>
   );
