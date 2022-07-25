@@ -1,0 +1,11 @@
+.images{
+display: flex;
+    flex-wrap: wrap;
+}
+
+
+.img-fluid{
+    width: 21em;
+    margin: 3px;
+    border-radius: 2em;
+}
