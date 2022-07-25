@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Dictionary/static/css/main.a647cd63.css",
+    "main.js": "/Dictionary/static/js/main.50de2498.js",
+    "static/js/787.0157ba9a.chunk.js": "/Dictionary/static/js/787.0157ba9a.chunk.js",
+    "static/media/glyphicons-halflings-regular.svg": "/Dictionary/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
+    "static/media/glyphicons-halflings-regular.ttf": "/Dictionary/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
+    "static/media/glyphicons-halflings-regular.woff": "/Dictionary/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
+    "static/media/logo.png": "/Dictionary/static/media/logo.951ad0359e7d58b01e19.png",
+    "static/media/glyphicons-halflings-regular.eot": "/Dictionary/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
+    "static/media/glyphicons-halflings-regular.woff2": "/Dictionary/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
+    "index.html": "/Dictionary/index.html",
+    "main.a647cd63.css.map": "/Dictionary/static/css/main.a647cd63.css.map",
+    "main.50de2498.js.map": "/Dictionary/static/js/main.50de2498.js.map",
+    "787.0157ba9a.chunk.js.map": "/Dictionary/static/js/787.0157ba9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a647cd63.css",
+    "static/js/main.50de2498.js"
+  ]
+}
