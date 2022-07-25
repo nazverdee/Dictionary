@@ -2,6 +2,14 @@ body {
     background: #f9f8fe;
 }
 
+.title{
+    text-align: center;
+    font-size: 5em;
+    color: #678391b8;
+    text-shadow: 1px 1px rgb(8, 6, 6);
+    font-weight: bold;
+}
+
 .App {
     max-width: 960px;
     margin: 0 auto;
