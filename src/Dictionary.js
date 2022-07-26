@@ -61,7 +61,7 @@ export default function Search(props) {
             />
           </form>
           <div className="hint">
-            suggested words: sunset, wine, yoga, plant...
+            suggested words: neglect, reminisce, justify ...
           </div>
         </section>
         <Results results={results} />
